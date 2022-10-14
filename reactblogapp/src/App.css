@@ -1,0 +1,323 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+.mainHeading{
+  text-align: center;
+  padding-top: 5vh;
+}
+
+.theHead{
+  font-size: 25px;    
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  writing-mode: vertical-lr;
+}
+
+.theSpiran{
+  margin-left: 1vw;
+  font-weight: bolder;
+  font-size: 50px;
+}
+
+.navItem{
+  color: black;
+  /* font-weight: lighter; */
+}
+
+.navItem:hover{
+  border-bottom: 2px solid rgb(155, 150, 150);
+}
+
+.navigation{
+  display: flex;
+  width: 80vw;
+  padding: 20px;
+  margin-right: auto;
+  margin-left: auto;
+  border-bottom: 3px solid rgb(251, 245, 245);
+}
+
+.navigation ul{
+  list-style-type: none;
+  display: flex;
+}
+
+.navigation ul li{
+  justify-content: space-evenly;
+  margin-left: 20%;
+  color: black;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.contentData{
+  width: 95vw;
+  height: auto;
+  border: 1px solid black;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.firstCont{
+  width: 95vw;
+  height: 60vh;
+  display: flex;
+  column-gap: 2vw;
+}
+
+.firstConstImg{
+  width: 60vw;
+  height: 60vh;
+  position: relative;
+}
+
+.firstConstImg img{
+  width: 60vw;
+  height: 63vh;
+  border-radius: 5px;
+}
+
+.ConstFirstImg{
+  width: 30vw;
+  height: 60vh;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.firstConstImgText{
+  position: absolute;
+  bottom:70px;
+  left: 60px;
+  color: white;
+}
+
+.imgHead{
+  font-size: 30px;
+}
+
+.smallHead{
+  font-size: 15px;
+  color: rgb(231, 216, 216);
+}
+
+.firImg{
+  width: 30vw;
+  height: 30vh;
+  position: relative;
+}
+
+.secImg{
+  width: 30vw;
+  height: 30vh;
+  margin-top: 3vh;
+  position: relative;
+}
+
+.firImg img{
+  width: 28vw;
+  height: 30vh;
+  position: relative;
+  border-radius: 5px;
+}
+
+.secImg img{
+  width: 28vw;
+  height: 30vh;
+  border-radius: 5px;
+}
+
+.smallImgText{
+  position: absolute;
+  top: 14vh;
+}
+
+.sideImg{
+  font-size: 15px;
+  color: rgb(176, 170, 170);
+  margin-left: 1vw;
+} 
+
+.smallText{
+  font-size: 30px;
+  margin-left: 1vw;
+  color: white;
+}
+
+/* Second content Div */
+
+.temple{
+  margin-top: 8vh;
+  width: 95vw;
+  height: 75vh;
+  /* border: 1px solid goldenrod; */
+}
+
+.temple p{
+  font-size: 35px;
+}
+
+hr{
+  width: 5%;
+  height: 1px;
+  background-color: #F08080;
+  color: #F08080;
+  margin-left: 5px;
+}
+
+.imgData{
+  margin-top: 5vh;
+  width: 95vw;
+  height: 35vh;
+  display: flex;
+  justify-content: space-between;
+}
+
+.imgDataOne{
+  width: 32%;
+  height: 60vh;
+}
+
+.imgDataOne img{
+  width: 100%;
+  height: 30vh;
+}
+
+.imgDataOneTitle{
+  font-size: 40px;
+  font-weight: 500;
+}
+
+.imgDataOneInfo{
+ font-size: 20px; 
+ color: rgb(155, 147, 147);
+}
+
+.conxt{
+  margin-left: auto;
+  margin-right: auto;
+  margin-left: 3vw;
+}
+
+.time{
+  font-size: 20px;
+  margin-top: 30px;
+  display: block;
+  color: rgb(155, 147, 147);
+}
+
+.time span{
+  font-weight: bold;
+  color: rgb(95, 91, 91);
+}
+
+.latestArticleMain{
+  font-size: 35px;
+  width: 95vw;
+  height: auto;
+}
+
+.latestArticle{
+    display: flex;
+    margin-top: 5vh;
+    margin-left: 3vw;
+}
+
+.imgInfo{
+  width: 65vw;
+  height:100vh;
+}
+
+.lineShdow{
+  width: 55vw;
+  height: 2px;
+  background-color: rgb(176, 173, 173);
+  margin-bottom: 3vh;
+}
+
+.waves{
+  width: 50vw;
+  height: 28vh;
+  margin-bottom: 3vh;
+  display: flex;
+  column-gap: 20px;
+}
+
+.image{
+  width: 30vw;
+  height: 28vh;
+}
+
+.image img{
+  width: 25vw;
+  height: 28vh;
+}
+
+.articleText{
+  width: 40vw;
+  height: 30vh;
+} 
+
+.articleText p{
+  margin-top: 20px;
+  font-size: 17px;
+  color:  rgb(155, 147, 147);
+}
+
+.smllText{
+  margin-top: 40px;
+  font-size: 17px;
+  color:  rgb(155, 147, 147);
+}
+
+.smllText span{
+  font-size: 20px;
+  font-weight: 500;
+  color: black;
+}
+
+.adv{
+  width: 30vw;
+  height: 100vh;
+  border: 1px solid black;
+  vertical-align: middle;
+  text-align: center;
+  line-height: 77vh;
+  margin-right: 3vw;
+}
+
+.adv p{
+  margin: auto;
+  vertical-align: middle;
+}
+
+.topNews{
+  width: 95vw;
+  height: 50vh;
+  border: 2px solid red;
+  display: flex;
+  column-gap: 3.4vw;
+  margin-top: 3vh;
+}
+
+.news{
+  width: 20vw;
+  height: 20vh;
+  background-color: blueviolet;
+}
+
+.leftNews{
+  width: 60vw;
+  height: 80vh;
+  border: 2px solid green;
+}
+
+.rightNews{
+  width: 28vw;
+  height: 80vh;
+  border: 2px solid yellowgreen;
+}
+
+.leftNewsContent{margin-left: 2.5vw;}
